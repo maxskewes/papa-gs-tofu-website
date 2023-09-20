@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductPicCard from '../../components/ProductPicCard';
+import ProductPicCard from '../../../components/ProductPicCard';
 
 const NutritionSesame = () => {
   return (
