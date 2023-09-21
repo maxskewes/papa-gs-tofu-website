@@ -35,6 +35,13 @@ export default function Home() {
           />
         </div>
       </div>
+      <div className='flex w-[280px] sm:[400px] align-center justify-center'>
+        <img
+          src='/images/icons/dietary-icons.png'
+          alt='dietary icon list'
+          width='100%'
+        />
+      </div>
     </main>
   );
 }
