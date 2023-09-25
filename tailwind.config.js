@@ -7,10 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      },
       colors: {
         BLACK: '#222',
         SOFT_BLACK: '#343434',
         WHITE: '#FFFDFA',
+        BGinner: '#f7e5ba',
+        BGoutter: '#e8ba4d',
         TAWNY: '#dcc098',
         RICH_TAWNY: '#c2914c',
         MED_TAWNY: '#593c05',

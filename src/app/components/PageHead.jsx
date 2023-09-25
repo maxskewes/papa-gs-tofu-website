@@ -1,5 +1,6 @@
+'use client'
 import React from 'react';
-import '../styles.css';
+// import '../styles.css';
 import { motion } from 'framer-motion';
 
 const PageHead = ({ title, subtitle, subtitle2 }) => {
