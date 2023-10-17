@@ -1,11 +1,11 @@
 import React from 'react';
-import ProductPicCard from '../../../components/ProductPicCard';
+import VendorPageCard from '../../../components/VendorPageCard';
 
 const ProductPicBBQ = () => {
   return (
-    <ProductPicCard
-      imgSrc={'/images/product-pics/bbq.png'}
-      alt={'Product picture of Barbeque variety'}
+    <VendorPageCard
+      bagImage={'/images/bags/bag-1000-bbq.png'}
+      productTitle={'Barbeque'}
     />
   );
 };

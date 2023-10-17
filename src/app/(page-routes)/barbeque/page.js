@@ -5,7 +5,7 @@ const Barbeque = () => {
     <ProductCard
     productName={'Original Recipe'}
     productPage={'/original-recipe'}
-    productImage={'/images/bags/web-bag-original.png'}
+    productImage={'/images/bags/bag-1000-bbq.png'}
   />
   )
 }

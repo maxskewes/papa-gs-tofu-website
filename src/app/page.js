@@ -10,28 +10,28 @@ export default function Home() {
           <ProductCard
             productName={'Original Recipe'}
             productPage={'/original-recipe'}
-            productImage={'/images/bags/web-bag-original.png'}
+            productImage={'/images/bags/bag-500-original.png'}
           />
         </div>
         <div className='bg-GREEN rounded-lg'>
           <ProductCard
             productName={'Savory Sesame'}
             productPage={'/savory-sesame'}
-            productImage={'/images/bags/web-bag-sesame.png'}
+            productImage={'/images/bags/bag-500-sesame.png'}
           />
         </div>
         <div className='bg-RED rounded-lg'>
           <ProductCard
             productName={'Taco Tofu'}
             productPage={'/street-taco'}
-            productImage={'/images/bags/web-bag-taco.png'}
+            productImage={'/images/bags/bag-500-taco.png'}
           />
         </div>
         <div className='bg-BLUE rounded-lg'>
           <ProductCard
             productName={'BBQ'}
             productPage={'/barbeque'}
-            productImage={'/images/bags/web-bag-bbq.png'}
+            productImage={'/images/bags/bag-500-bbq.png'}
           />
         </div>
       </div>
