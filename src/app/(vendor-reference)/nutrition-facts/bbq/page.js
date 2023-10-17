@@ -1,13 +1,7 @@
-import React from 'react';
-import ProductPicCard from '../../../components/ProductPicCard';
+import VendorNutritionPage from '../../../components/VendorNutritionPage';
 
 const NutritionBBQ = () => {
-  return (
-    <ProductPicCard
-      imgSrc={'/images/nutrition-facts/nutrition-bbq.png'}
-      alt={'Barbeque variety nutritional information'}
-    />
-  );
+  return <VendorNutritionPage productLink={'bbq'} productTitle={'Barbeque'} />;
 };
 
 export default NutritionBBQ;

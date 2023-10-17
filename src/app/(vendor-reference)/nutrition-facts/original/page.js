@@ -1,13 +1,7 @@
-import React from 'react';
-import ProductPicCard from '../../../components/ProductPicCard';
+import VendorNutritionPage from '../../../components/VendorNutritionPage';
 
 const NutritionOriginal = () => {
-  return (
-    <ProductPicCard
-      imgSrc={'/images/nutrition-facts/nutrition-original.png'}
-     alt={'Original Recipe variety nutritional information'}
-    />
-  );
+  return <VendorNutritionPage productLink={'original'} productTitle={'Original Recipe'} />;
 };
 
 export default NutritionOriginal;

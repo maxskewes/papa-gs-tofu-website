@@ -1,13 +1,7 @@
-import React from 'react';
-import ProductPicCard from '../../../components/ProductPicCard';
+import VendorNutritionPage from '../../../components/VendorNutritionPage';
 
 const NutritionTaco = () => {
-  return (
-    <ProductPicCard
-      imgSrc={'/images/nutrition-facts/nutrition-taco.png'}
-      alt={'Street Taco variety nutritional information'}
-    />
-  );
+  return <VendorNutritionPage productLink={'taco'} productTitle={'Street Taco'} />;
 };
 
 export default NutritionTaco;
