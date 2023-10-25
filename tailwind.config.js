@@ -25,6 +25,9 @@ module.exports = {
         BLUE: '#1c6a9a',
         GREEN: '#6c7e19',
       },
+      fontFamily: {
+        
+      }
     },
   },
   plugins: [],
