@@ -12,7 +12,6 @@ const ProductCard = ({ productName, productPage, productImage, cardColor }) => {
           transition={{ duration: 0.2 }}
         >
           <div
-      
             className='flex p-[4%] pr-0 content-center justify-center'
           >
             <motion.img

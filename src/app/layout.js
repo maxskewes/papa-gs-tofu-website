@@ -1,26 +1,30 @@
 import './globals.css';
-import { Inter } from 'next/font/google';
+import { Ribeye } from 'next/font/google'
 import SiteHeader from '../app/layout-components/site-header/SiteHeader';
+import SiteFooter from '../app/layout-components/site-footer/SiteFooter';
 import SiteBG from '../app/layout-components/SiteBG';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: "Papa G's Tofu",
   description: 'Secret Society Organics',
 };
 
+const ribeye= Ribeye({ subsets: ['latin'], weight: ['400'] })
+
+
+
+
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={inter.className}>
+      <body className={ribeye.className}>
         <header>
           <SiteHeader />
         </header>
         <SiteBG>
-          <main>{children}</main>
+          <main className='m-auto px-2 sm:px-4 md:px-4 lg:px-12 max-w-[1200px]' >{children}</main>
         </SiteBG>
-        <footer></footer>
+        <footer><SiteFooter /></footer>
       </body>
     </html>
   );
