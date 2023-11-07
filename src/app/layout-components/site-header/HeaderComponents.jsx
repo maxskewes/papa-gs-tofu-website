@@ -5,7 +5,15 @@ import PGlink from '../../components/PGlink';
 
 export const SiteHeaderBG = ({ children }) => {
   return (
-    <div className='w-[100vw] h-[220px] bg-gradient-to-r from-BLACK via-RED to-BLACK shadow-lg'>
+    <div className='w-[100vw] h-auto md:h-[160px] lg:h-[188px] bg-gradient-to-r from-BLACK via-RED to-BLACK shadow-lg'>
+      {children}
+    </div>
+  );
+};
+
+export const SiteHeaderBGSm = ({ children }) => {
+  return (
+    <div className='w-[100vw] h-full bg-gradient-to-r from-BLACK via-RED to-BLACK shadow-lg'>
       {children}
     </div>
   );
@@ -59,7 +67,7 @@ export const SiteHeaderSloganLg = () => {
 export const SiteHeaderSloganSm = () => {
   return (
     <div className='flex flex-col grow-0 md:grow-1 pb-0 md:pb-[4.5rem] ml-0 md:ml-[-1.25rem]'>
-      <h4 className='text-right'>
+      <h4 className='text-right text-TAWNY font-marrow'>
         <motion.p
           initial={{ x: 50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}

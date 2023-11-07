@@ -1,18 +1,18 @@
 'use client';
 import React from 'react';
 import SiteHeaderLg from './SiteHeaderLg';
-// import SiteHeadSm from './SiteHeadSm';
+import SiteHeaderSm from './SiteHeaderSm';
 import { SiteHeaderBG } from './HeaderComponents';
 
 
 const SiteHeader = () => {
   return (
-    <div>
+    
     <SiteHeaderBG>
       <SiteHeaderLg />
-      {/* <SiteHeadSm /> */}
+      <SiteHeaderSm />
     </SiteHeaderBG>
-    </div>
+
   );
 };
 

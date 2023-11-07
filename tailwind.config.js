@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'dropdownItemBG': 'radial-gradient(circle, #9b3627 60%, #212121 100%)',
       },
       colors: {
         BLACK: '#222',
@@ -16,6 +17,7 @@ module.exports = {
         WHITE: '#FFFDFA',
         BGinner: '#f7e5ba',
         BGoutter: '#e8ba4d',
+        TAWNY_SOFT: '#e9d7be',
         TAWNY: '#dcc098',
         RICH_TAWNY: '#c2914c',
         MED_TAWNY: '#593c05',
