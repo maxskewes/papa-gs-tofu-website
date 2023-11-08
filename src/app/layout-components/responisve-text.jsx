@@ -1,3 +1,12 @@
+
+export const ResTxtSm = ({children}) => {
+return (
+  <p className="text-sm sm:text-md md:text-lg lg:text-xl xl:text-2xl">
+    {children}
+  </p>
+)
+} 
+
 export const ResTxtMd = ({children}) => {
   return (
     <p className="text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
