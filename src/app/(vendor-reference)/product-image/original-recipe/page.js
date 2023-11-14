@@ -3,7 +3,7 @@ import VendorProductPage from '../../../components/VendorProductPage';
 const ProductPicOriginal = () => {
   return (
     <VendorProductPage 
-    productLink={'original'} 
+    productLink={'original-recipe'} 
     productTitle={'Original Recipe'} />
     );
 };

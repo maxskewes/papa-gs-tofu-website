@@ -4,7 +4,7 @@ import VendorProductPage from '../../../components/VendorProductPage';
 const ProductPicTaco = () => {
   return (
     <VendorProductPage 
-    productLink={'taco'} 
+    productLink={'street-taco'} 
     productTitle={'Street Taco'} />
     );
 };
