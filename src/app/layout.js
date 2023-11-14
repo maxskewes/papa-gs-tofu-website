@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
           <SiteHeader />
         </header>
         <SiteBG>
-          <main className='m-auto px-2 sm:px-4 md:px-4 lg:px-12 max-w-[1200px]' >{children}</main>
+          <main className='m-auto px-4 py-8  lg:px-12 max-w-[1200px]' >{children}</main>
         </SiteBG>
         <footer><SiteFooter /></footer>
       </body>

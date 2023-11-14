@@ -6,7 +6,7 @@ import SiteBG from './SiteBG';
 const ProductPageLayout = ({ varietyName, shadowClassName, imageSrc, imageAlt, children }) => {
   return (
    
-      <div className='pt-8 pb-12'>
+      <div>
         <motion.div
           initial={{ scale: 0.8, y: 50, opacity: 0 }}
           animate={{ scale: 1, y: 0, opacity: 1 }}
