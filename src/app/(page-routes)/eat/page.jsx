@@ -5,7 +5,7 @@ const Eat = () => {
   return (
     <PageContainer>
       <PageHead
-        title={'Eat'}
+        title={'Eat.'}
         subtitle={
           'Add to pasta, serve with beans & rice, enjoy on top of salad or eat as is: hot or cold. Available in four different flavors to suit a variety of recipe needs.'
         }

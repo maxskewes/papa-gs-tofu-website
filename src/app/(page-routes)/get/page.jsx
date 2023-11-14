@@ -6,7 +6,7 @@ import PageHead from '../../components/PageHead';
 const Get = () => {
   return (
     <PageContainer>
-      <PageHead title={'Get'} subtitle={'Our products are available from these fine grocers.'} />
+      <PageHead title={'Get.'} subtitle={'Our products are available from these fine grocers.'} />
       <div className='w-full flex flex-wrap m-4 gap-4 justify-center items-center'>
         <div className='w-[200px] sm:w-[300px]'>
           <a href='https://www.newseasonsmarket.com/' target='_blank' rel='noreferrer noopener'>
