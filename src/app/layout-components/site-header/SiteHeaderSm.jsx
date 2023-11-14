@@ -77,12 +77,12 @@ const SmLinkContainer = ({ isOpen }) => {
     animate={{ opacity: 1, scale: 1 }}
     transition={{ duration: 0.5 }}
     
-    className='md:hidden justify-center items-center flex-col pb-2'>
+    className='md:hidden justify-center items-center flex-col'>
       <SiteHeaderBGSm>
       <SmLinkItem to={'/original-recipe'} title={'Original Recipe'} />
       <SmLinkItem to={'/savory-sesame'} title={'Savory Sesame'} />
       <SmLinkItem to={'/street-taco'} title={'Street Taco'} />
-      <SmLinkItem to={'/barbeque'} title={'Babeque'} />
+      <SmLinkItem to={'/barbeque'} title={'Barbeque'} />
       <SmLinkItem to={'/get'} title={'Where to purchase'} />
       <SmLinkItem to={'/us'} title={"Papa G's Vegan Organics"} />
       </SiteHeaderBGSm>
