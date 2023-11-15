@@ -1,12 +1,13 @@
 'use client'
 import { motion } from 'framer-motion';
 import PageContainer from '../../components/PageContainer';
-import PageHead from '../../components/PageHead';
+import { PageHeading, PageSubheading } from '../../layout-components/HeadingComponents';
 
 const Get = () => {
   return (
     <PageContainer>
-      <PageHead title={'Get.'} subtitle={'Our products are available from these fine grocers.'} />
+      <PageHeading title={'Get.'} />
+      <PageSubheading subtitle={'Our products are available from these fine grocers.'} />
       <div className='w-full flex flex-wrap m-4 gap-4 justify-center items-center'>
         <div className='w-[200px] sm:w-[300px]'>
           <a href='https://www.newseasonsmarket.com/' target='_blank' rel='noreferrer noopener'>

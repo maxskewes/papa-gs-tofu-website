@@ -1,5 +1,5 @@
 'use client';
-import { React} from 'react';
+import { React, useState } from 'react';
 import { motion } from 'framer-motion';
 import { SiteHeaderLogo, SiteHeaderSloganLg } from './HeaderComponents';
 import PGlink from '../../components/PGlink';
@@ -10,7 +10,7 @@ const SiteHeaderLg = () => {
     return (
       <PGlink to={to}>
         <div className='px-6'>
-          <h1 className=' text-3xl text-TAWNY hover:text-RICH_TAWNY'>{title}</h1>
+          <h1 className='text-2xl lg:text-4xl text-TAWNY hover:text-RICH_TAWNY'>{title}</h1>
           <p className='flex md:hidden uppercase text-TAWNY font-RIBEYE text-sm font-normal justify-center items-center leading-4 p-1'>
             {description}
           </p>
@@ -30,10 +30,7 @@ const SiteHeaderLg = () => {
             transition={{ duration: 0.5 }}
             className='relative px-6'
           >
-            <div className='flex flex-col'>
-              <h1 className='text-3xl text-TAWNY hover:text-RICH_TAWNY'>Varieties</h1>
-                <VarietiesMenu />
-            </div>
+            <VarietiesMenu />
           </motion.div>
         </button>
         <motion.div

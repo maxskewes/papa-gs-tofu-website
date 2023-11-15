@@ -1,11 +1,12 @@
 import PageContainer from '../../components/PageContainer';
-import PageHead from '../../components/PageHead';
+import { PageHeading, PageSubheading } from '../../layout-components/HeadingComponents';
 
 const Contact = () => {
   return (
     <PageContainer>
-      <p>503 664-0274</p>
-      <p>papagstofu@secretsocietyorgaincs.com</p>
+      <PageHeading title={'Contact'} />
+      <PageSubheading subtitle={'503 664-0274'} />
+      <PageSubheading subtitle={'papagstofu@secretsocietyorgaincs.com'} />
     </PageContainer>
   );
 };
