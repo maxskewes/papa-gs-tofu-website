@@ -15,7 +15,7 @@ const SiteFooter = () => {
   return (
     <SiteFooterBG>
       <div className=' p-8 flex flex-col justify-center items-center text-TAWNY opacity-80'>
-        <div className='w-full flex flex-row justify-center text-center'>
+        <div className='flex flex-row justify-center items-center text-center'>
           <a
             href='https://www.facebook.com/PapaGsVeganOrganicDeli'
             className='py-4 px-4 sm:px-6 md:px-8 cursor-pointer text-TAWNY hover:text-TAWNY_SOFT'

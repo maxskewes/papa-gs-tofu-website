@@ -7,7 +7,7 @@ export const PageHeading = ({ title }) => {
       initial={{ scale: 0.8, y: 50, opacity: 0 }}
       animate={{ scale: 1, y: 0, opacity: 1 }}
       transition={{ duration: 0.3 }}
-      className='text-4xl sm:text-5xl md:text-6xl xl:text-7xl 2xl:text-8xl mb-4 text-SOFT_BLACK leading-4 lg:leading-6'
+      className='uppercase text-center text-4xl sm:text-5xl md:text-6xl xl:text-7xl 2xl:text-8xl mb-4 text-SOFT_BLACK leading-4 lg:leading-6'
     >
       {title}
     </motion.p>
