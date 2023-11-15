@@ -6,6 +6,7 @@ const PGlink = ({ to, children }) => {
     <Link
       href={to}
       cursor='pointer'
+      className='w-full'
     >
       {children}
     </Link>
