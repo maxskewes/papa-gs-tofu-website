@@ -5,7 +5,7 @@ import PGlink from '../../components/PGlink';
 
 export const SiteHeaderBG = ({ children }) => {
   return (
-    <div className='w-[100vw] h-auto md:h-[160px] lg:h-[188px] bg-gradient-to-r from-BLACK via-RED to-BLACK shadow-lg'>
+    <div className='w-[100vw] h-auto md:h-[160px] lg:h-[188px] bg-gradient-to-r from-BLACK via-RED to-BLACK'>
       {children}
     </div>
   );
@@ -13,7 +13,7 @@ export const SiteHeaderBG = ({ children }) => {
 
 export const SiteHeaderBGSm = ({ children }) => {
   return (
-    <div className='w-[100vw] h-full bg-gradient-to-r from-BLACK via-RED to-BLACK shadow-lg'>
+    <div className='w-[100vw] h-full bg-gradient-to-r from-BLACK via-RED to-BLACK'>
       {children}
     </div>
   );

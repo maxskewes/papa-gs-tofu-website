@@ -21,7 +21,7 @@ export default function VarietiesMenu() {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.3 }}
         className='absolute z-10 top-[4.5rem] flex flex-col justify-center items-center rounded-md
         bg-gradient-radial from-BGinner to-BGoutter'
       >
