@@ -1,14 +1,10 @@
 'use client';
-import { motion } from 'framer-motion';
-import { ResTxtLg, ResTxtMd, ResTxtXl } from '../app/layout-components/responisve-text';
 import ProductCard from './components/ProductCard';
 import { OutlineTextLanding } from './layout-components/OutlineTextColors';
-import { BrickHeading } from './layout-components/HeadingComponents';
 
 export default function Home() {
   return (
     <main className='flex min-h-screen flex-col items-center justify-center p-2'>
-
       <div className='flex justify-center items-center flex-col w-full pt-0 pb-8 sm:pb-12 md:pb-16 lg:pt-4 lg:pb-20 xl:pb-24'>
         <OutlineTextLanding words={"Papa G's Organic Tofu."} />
 
@@ -28,7 +24,6 @@ export default function Home() {
             width='100%'
           />
         </div>
-
       </div>
       <div className='grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 md:gap-3 lg:gap-4'>
         <div className='bg-YELLOW rounded-lg'>
@@ -60,10 +55,9 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className='flex w-full align-center justify-center m-8 grow-1'>
-        <div className='max-w-[400px]'>
-          <img src='/images/icons/dietary-icons.png' alt='dietary icon list' width='100%' />
-        </div>
+
+      <div className='flex w-full align-center justify-center p-8 md:p-12 max-w-[80%] lg:max-w-[800px]'>
+        <img src='/images/icons/dietary-icons.svg' alt='dietary icon list' width='100%' />
       </div>
     </main>
   );
