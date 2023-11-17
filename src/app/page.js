@@ -2,12 +2,13 @@
 import { motion } from 'framer-motion';
 import { ResTxtLg, ResTxtMd, ResTxtXl } from '../app/layout-components/responisve-text';
 import ProductCard from './components/ProductCard';
+import OutlineHeading from './layout-components/OutlineHeading'
 
 export default function Home() {
   return (
     <main className='flex min-h-screen flex-col items-center justify-center p-2'>
       <div className='flex justify-center items-center flex-col w-full p-4'>
-        <ResTxtLg>PAPA G's ORGANIC TOFU</ResTxtLg>
+        <ResTxtLg>Papa G's Organic Tofu</ResTxtLg>
         <ResTxtMd>because</ResTxtMd>
         <ResTxtXl>YOU CAN'T EAT A BRICK.</ResTxtXl>
       </div>

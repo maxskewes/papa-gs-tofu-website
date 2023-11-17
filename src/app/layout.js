@@ -1,5 +1,5 @@
 import './globals.css';
-import { Ribeye } from 'next/font/google';
+import { solid } from './fonts'
 import SiteHeader from '../app/layout-components/site-header/SiteHeader';
 import SiteFooter from '../app/layout-components/site-footer/SiteFooter';
 import SiteBG from '../app/layout-components/SiteBG';
@@ -9,12 +9,12 @@ export const metadata = {
   description: 'Secret Society Organics',
 };
 
-const ribeye = Ribeye({ subsets: ['latin'], weight: ['400'] });
+
 
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={ribeye.className}>
+      <body className={solid.className}>
         <header>
           <SiteHeader />
         </header>

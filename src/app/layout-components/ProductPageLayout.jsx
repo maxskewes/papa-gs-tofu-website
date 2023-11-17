@@ -1,18 +1,21 @@
 'use client';
 import React from 'react';
 import { motion } from 'framer-motion';
-import SiteBG from './SiteBG';
 
-const ProductPageLayout = ({ varietyName, shadowClassName, imageSrc, imageAlt, children }) => {
+const ProductPageLayout = ({ varietyName, imageSrc, imageAlt, children }) => {
   return (
     <div className='w-full'>
-      <motion.div
+
+      {/* <motion.div
         initial={{ scale: 0.8, y: 50, opacity: 0 }}
         animate={{ scale: 1, y: 0, opacity: 1 }}
         transition={{ duration: 0.3 }}
+        className='text-4xl text-SOFT_BLACK text-center mb-0 md:mb-4'
       >
-        <p className='text-4xl text-SOFT_BLACK text-center mb-0 md:mb-4'>{varietyName}</p>
-      </motion.div>
+        <OutlineTextRed>
+        {varietyName}
+        </OutlineTextRed>
+      </motion.div> */}
 
       <div className='w-full grid grid-cols-1 lg:grid-cols-2 gap-2 place-items-center'>
         <motion.img
