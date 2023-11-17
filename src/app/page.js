@@ -8,7 +8,8 @@ import { BrickHeading } from './layout-components/HeadingComponents';
 export default function Home() {
   return (
     <main className='flex min-h-screen flex-col items-center justify-center p-2'>
-      <div className='flex justify-center items-center flex-col w-full pt-0 pb-8'>
+
+      <div className='flex justify-center items-center flex-col w-full pt-0 pb-8 sm:pb-12 md:pb-16 lg:pt-4 lg:pb-20 xl:pb-24'>
         <OutlineTextLanding words={"Papa G's Organic Tofu."} />
 
         <p className='text-SOFT_BLACK text-2xl lg:text-4xl leading-tight'>because</p>
@@ -17,13 +18,13 @@ export default function Home() {
           <img
             src='/images/brick-red.svg'
             alt="YOU CAN'T EAT A BRICK."
-            className='absolute blur-sm py-2 px-8'
+            className='absolute blur-sm pt-3 px-8'
             width='100%'
           />
           <img
             src='/images/brick.svg'
             alt="YOU CAN'T EAT A BRICK."
-            className='relative py-2 px-8'
+            className='relative pt-3 px-8'
             width='100%'
           />
         </div>
