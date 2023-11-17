@@ -6,17 +6,6 @@ const ProductPageLayout = ({ varietyName, imageSrc, imageAlt, children }) => {
   return (
     <div className='w-full'>
 
-      {/* <motion.div
-        initial={{ scale: 0.8, y: 50, opacity: 0 }}
-        animate={{ scale: 1, y: 0, opacity: 1 }}
-        transition={{ duration: 0.3 }}
-        className='text-4xl text-SOFT_BLACK text-center mb-0 md:mb-4'
-      >
-        <OutlineTextRed>
-        {varietyName}
-        </OutlineTextRed>
-      </motion.div> */}
-
       <div className='w-full grid grid-cols-1 lg:grid-cols-2 gap-2 place-items-center'>
         <motion.img
           initial={{ x: -150, opacity: 0 }}

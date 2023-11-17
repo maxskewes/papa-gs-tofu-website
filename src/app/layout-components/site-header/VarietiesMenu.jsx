@@ -9,7 +9,7 @@ export default function VarietiesMenu() {
   const VarietyLink = ({ to, children }) => {
     return (
       <PGlink to={to}>
-        <p className='uppercase text-MED_TAWNY font-RIBEYE text-xs md:text-lg font-semibold text-center p-0.5 md:p-2 hover:text-TAWNY hover:bg-MED_TAWNY'>
+        <p className='uppercase text-MED_TAWNY font-RIBEYE text-base lg:text-lg font-semibold text-center p-0.5 md:p-2 hover:text-TAWNY hover:bg-MED_TAWNY whitespace-nowrap'>
           {children}
         </p>
       </PGlink>
@@ -22,7 +22,7 @@ export default function VarietiesMenu() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
-        className='absolute top-[4.5rem] flex flex-col justify-center items-center rounded-md
+        className='absolute z-10 top-[4.5rem] flex flex-col justify-center items-center rounded-md
         bg-gradient-radial from-BGinner to-BGoutter'
       >
         <VarietyLink to='/original-recipe'>Original Recipe</VarietyLink>

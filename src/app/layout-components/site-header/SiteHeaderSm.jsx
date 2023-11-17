@@ -64,7 +64,7 @@ const SmLinkItem = ({ to, title }) => {
   return (
     <PGlink to={to}>
       <div className='flex flex-col min-w-[100vw] cursor-pointer text-TAWNY justify-center items-center text-center py-2 hover:text-TAWNY_SOFT hover:bg-dropdownItemBG'>
-        <p className='uppercase text-sm'>{title}</p>
+        <p className='uppercase text-sm sm:text-base'>{title}</p>
       </div>
     </PGlink>
   );
