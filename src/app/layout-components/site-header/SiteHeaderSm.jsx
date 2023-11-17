@@ -12,7 +12,9 @@ const SiteHeaderSm = () => {
     <SiteHeaderBGSm>
       <div className='flex md:hidden justify-between items-center px-4 sm:px-8'>
         <MenuToggle className='grow-1' handleToggle={handleToggle} isOpen={isOpen} />
+        <div className='-mb-8 -mt-4 sm:-mb-12'>
         <SiteHeaderLogo />
+        </div>
         <SiteHeaderSloganSm />
       </div>
       <SmLinkContainer isOpen={isOpen} />
