@@ -36,7 +36,7 @@ const SiteFooter = () => {
             </p>
           </PGlink>
         </div>
-        <ResTxtMd>Papa G's Organic Tofu</ResTxtMd>
+        <ResTxtMd>Papa G&apos;s Organic Tofu</ResTxtMd>
         <ResTxtMd>Portland, OR</ResTxtMd>
       </div>
     </SiteFooterBG>

@@ -16,7 +16,7 @@ const VendorNutritionPage = ({ productLink, productTitle }) => {
         <VendorLink to={`/nutrition-facts/${productLink}`}>{productTitle} Product Image</VendorLink>
         <VendorLink to={`/${productLink}`}>{productTitle} Product Page</VendorLink>
         <VendorLink to={'/'}>
-          Papa G's Website/ <br />
+          Papa G&apos;s Website/ <br />
           &nbsp; Home Page
         </VendorLink>
         <div className='my-2'>
