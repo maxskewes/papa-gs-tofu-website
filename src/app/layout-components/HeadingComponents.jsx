@@ -1,21 +1,6 @@
+"use client"
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ribeye } from '../fonts';
-
-export const BrickHeading = ({ title }) => {
-  return (
-    <motion.div
-      initial={{ scale: 0.8, y: 50, opacity: 0 }}
-      animate={{ scale: 1, y: 0, opacity: 1 }}
-      transition={{ duration: 0.3 }}
-      className={ribeye.className}
-    >
-      <p className='uppercase text-center text-4xl sm:text-5xl md:text-6xl xl:text-7xl 2xl:text-8xl mb-4 text-SOFT_BLACK leading-4 lg:leading-6'>
-        {title}
-      </p>
-    </motion.div>
-  );
-};
 
 export const PageHeading = ({ title }) => {
   return (
