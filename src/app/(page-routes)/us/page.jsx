@@ -42,7 +42,7 @@ const Us = () => {
           pieces: to ensure every bite is infused evenly with flavour and has the perfect texture.
           </ParagraphText>
           <p className='text-md sm:text-lg md:text-xl text-DARK_TAWNY text-center font-semibold max-w-[1000px]'>
-          You can't eat a brick.
+          You can&apos;t eat a brick.
         </p>
           <ParagraphText>
           Our organic ingredients and commitment to quality make Papa G&apos;s Tofu the perfect

@@ -1,6 +1,7 @@
 import PageContainer from '../../components/PageContainer';
 import { PageHeading, PageSubheading, ParagraphText } from '../../layout-components/HeadingComponents';
 import { outline } from '../../fonts';
+import ContactForm from './ContactForm';
 
 const Contact = () => {
   return (
@@ -20,6 +21,7 @@ const Contact = () => {
       503 664-0274
         </p>
       <ParagraphText>papagstofu@secretsocietyorgaincs.com</ParagraphText>
+      <ContactForm />
     </PageContainer>
   );
 };
