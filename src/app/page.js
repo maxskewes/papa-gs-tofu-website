@@ -56,7 +56,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='flex w-full align-center justify-center p-8 md:p-12 max-w-[80%] lg:max-w-[800px]'>
+      <div className='flex w-full align-center justify-center pt-4 p-2 sm:p-8 md:p-12 max-w-[80%] lg:max-w-[800px]'>
         <img src='/images/icons/dietary-icons.svg' alt='dietary icon list' width='100%' />
       </div>
     </main>
