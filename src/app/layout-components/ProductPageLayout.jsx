@@ -1,11 +1,11 @@
 'use client';
 import React from 'react';
 import { motion } from 'framer-motion';
+import ProductViewLink from '../components/ProductViewLink';
 
 const ProductPageLayout = ({ varietyName, imageSrc, imageAlt, children }) => {
   return (
     <div className='w-full'>
-
       <div className='w-full grid grid-cols-1 lg:grid-cols-2 gap-2 place-items-center'>
         <motion.img
           initial={{ x: -150, opacity: 0 }}
@@ -25,6 +25,7 @@ const ProductPageLayout = ({ varietyName, imageSrc, imageAlt, children }) => {
           {children}
         </motion.p>
       </div>
+      <ProductViewLink productRoute='original-recipe' />
     </div>
   );
 };
