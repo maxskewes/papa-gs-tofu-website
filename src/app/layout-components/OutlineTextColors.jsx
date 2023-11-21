@@ -52,9 +52,9 @@ export const OutlineTextGreen = ({ words }) => {
 export const OutlineTextLanding = ({ words }) => {
   return (
     <div className='relative text-center uppercase text-2xl sm:text-4xl lg:text-6xl leading-tight'>
-      <div className='absolute text-GREEN blur-sm'>
+      {/* <div className='absolute text-GREEN blur-sm'>
         <p>{words}</p>
-      </div>
+      </div> */}
       <div className='absolute text-GREEN'>
         <p>{words}</p>
       </div>
