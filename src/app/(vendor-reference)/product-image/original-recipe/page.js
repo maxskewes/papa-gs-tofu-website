@@ -1,4 +1,4 @@
-import VendorProductPage from '../../../components/VendorProductPage';
+import VendorProductPage from '../../vendor-components/VendorProductPage';
 
 const ProductPicOriginal = () => {
   return (

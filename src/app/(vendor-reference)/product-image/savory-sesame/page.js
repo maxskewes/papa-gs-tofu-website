@@ -1,4 +1,4 @@
-import VendorProductPage from '../../../components/VendorProductPage';
+import VendorProductPage from '../../vendor-components/VendorProductPage';
 
 const ProductPicSesame = () => {
   return <VendorProductPage productLink={'savory-sesame'} productTitle={'Savory Sesame'} />;

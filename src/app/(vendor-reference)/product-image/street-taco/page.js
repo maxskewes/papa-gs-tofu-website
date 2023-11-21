@@ -1,5 +1,4 @@
-import React from 'react';
-import VendorProductPage from '../../../components/VendorProductPage';
+import VendorProductPage from '../../vendor-components/VendorProductPage';
 
 const ProductPicTaco = () => {
   return (

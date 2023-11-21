@@ -1,7 +1,7 @@
-import VendorNutritionPage from '../../../components/VendorNutritionPage';
+import VendorNutritionPage from '../../vendor-components/VendorNutritionPage';
 
 const NutritionTaco = () => {
-  return <VendorNutritionPage productLink={'taco'} productTitle={'Street Taco'} />;
+  return <VendorNutritionPage productLink={'street-taco'} productTitle={'Street Taco'} />;
 };
 
 export default NutritionTaco;
