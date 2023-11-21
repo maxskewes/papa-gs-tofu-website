@@ -16,7 +16,6 @@ export default function RootLayout({ children }) {
       <SiteBG>
         <header className='flex flex-col'>
           <SiteHeader />
-          <div className='w-full h-[40px]' />
         </header>
    
           <main className='m-auto px-2 sm:px-4 md:px-4 lg:px-12 py-8 md:py-16 lg:py-12 max-w-[1200px]'>
