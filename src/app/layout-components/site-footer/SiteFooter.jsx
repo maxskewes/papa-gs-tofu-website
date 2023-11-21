@@ -1,6 +1,5 @@
 import React from 'react';
 import { RiFacebookCircleFill, RiInstagramFill, RiMailFill } from 'react-icons/ri';
-import { ResTxtMd, ResTxtSm } from '../responisve-text';
 import PGlink from '../../components/PGlink';
 
 const SiteFooter = () => {
@@ -14,7 +13,7 @@ const SiteFooter = () => {
 
   return (
     <SiteFooterBG>
-      <div className=' p-8 flex flex-col justify-center items-center text-TAWNY opacity-80'>
+      <div className='p-8 flex flex-col justify-center items-center text-TAWNY opacity-80'>
         <div className='flex flex-row justify-center items-center text-center'>
           <a
             href='https://www.facebook.com/PapaGsVeganOrganicDeli'
@@ -36,8 +35,13 @@ const SiteFooter = () => {
             </p>
           </PGlink>
         </div>
-        <ResTxtMd>Papa G&apos;s Organic Tofu</ResTxtMd>
-        <ResTxtMd>Portland, OR</ResTxtMd>
+
+        <p className='text-TAWNY text-center text-lg sm:text-xl md:text-2xl hover:text-TAWNY_SOFT [text-shadow:_3px_2px_2px_rgb(194_145_96_/_60%)]'>
+          <PGlink to='/contact'>
+            Papa G&apos;s Organic Tofu <br />
+            Portland, OR
+          </PGlink>
+        </p>
       </div>
     </SiteFooterBG>
   );

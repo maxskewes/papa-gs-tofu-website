@@ -9,7 +9,7 @@ export default function VarietiesMenu() {
   const VarietyLink = ({ to, children }) => {
     return (
       <PGlink to={to}>
-        <p className='uppercase text-MED_TAWNY font-RIBEYE text-base lg:text-lg font-semibold text-center p-0.5 md:p-2 hover:text-TAWNY hover:bg-MED_TAWNY whitespace-nowrap'>
+        <p className='rounded-md uppercase text-MED_TAWNY font-RIBEYE text-base lg:text-lg font-semibold text-center p-0.5 md:p-2 hover:text-TAWNY hover:bg-MED_TAWNY whitespace-nowrap'>
           {children}
         </p>
       </PGlink>
@@ -39,7 +39,9 @@ export default function VarietiesMenu() {
       onMouseEnter={() => setVarietiesMenuOpen(true)}
       onMouseLeave={() => setVarietiesMenuOpen(false)}
     >
-      <p className='text-2xl lg:text-4xl text-TAWNY hover:text-RICH_TAWNY my-4'>Varieties.</p>
+      <p className='text-2xl lg:text-4xl text-TAWNY hover:text-RICH_TAWNY my-4
+      [text-shadow:_3px_2px_2px_rgb(194_145_96_/_60%)]
+      '>Varieties.</p>
       {varietiesMenuOpen && <VarietiesHover />}
     </div>
   );

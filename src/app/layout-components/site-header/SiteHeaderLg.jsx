@@ -10,7 +10,7 @@ const SiteHeaderLg = () => {
     return (
       <PGlink to={to}>
         <div className='px-6'>
-          <h1 className='text-2xl lg:text-4xl text-TAWNY hover:text-RICH_TAWNY'>{title}</h1>
+          <h1 className='text-2xl lg:text-4xl text-TAWNY hover:text-RICH_TAWNY [text-shadow:_3px_2px_2px_rgb(194_145_96_/_60%)]'>{title}</h1>
           <p className='flex md:hidden uppercase text-TAWNY font-RIBEYE text-sm font-normal justify-center items-center leading-4 p-1'>
             {description}
           </p>

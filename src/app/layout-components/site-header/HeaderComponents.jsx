@@ -42,6 +42,7 @@ export const SiteHeaderSloganLg = () => {
           initial={{ x: -50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.5 }}
+          className='[text-shadow:_3px_2px_2px_rgb(194_145_96_/_60%)]'
         >
           Seasoned.
         </motion.p>
@@ -49,6 +50,7 @@ export const SiteHeaderSloganLg = () => {
           initial={{ x: -50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.7 }}
+          className='[text-shadow:_3px_2px_2px_rgb(194_145_96_/_60%)]'
         >
           Baked.
         </motion.p>
@@ -56,6 +58,7 @@ export const SiteHeaderSloganLg = () => {
           initial={{ x: -50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
+          className='[text-shadow:_3px_2px_2px_rgb(194_145_96_/_60%)]'
         >
           Organic.
         </motion.p>
