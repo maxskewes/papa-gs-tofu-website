@@ -10,7 +10,7 @@ const VendorNutritionPage = ({ productLink, productTitle }) => {
       <div className='flex justify-center w-full h-full p-[1%]'>
         <img
           className='object-contain'
-          src={`/images/nutrition-facts/nutrition-${productLink}.png`}
+          src={`/images/nutrition-facts/${productLink}.png`}
           alt={`${productTitle} variety nutritional information`}
         />
       </div>
