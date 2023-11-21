@@ -13,7 +13,7 @@ export const SiteHeaderBG = ({ children }) => {
 
 export const SiteHeaderBGSm = ({ children }) => {
   return (
-    <div className='w-[100vw] h-full bg-gradient-to-r from-BLACK via-RED to-BLACK'>
+    <div className='md:hidden w-[100vw] h-full bg-gradient-to-r from-BLACK via-RED to-BLACK'>
       {children}
     </div>
   );

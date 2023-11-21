@@ -5,13 +5,14 @@ import PGlink from '../../components/PGlink';
 const SiteFooter = () => {
   const SiteFooterBG = ({ children }) => {
     return (
-      <div className='w-[100vw] h-auto bg-gradient-to-r from-BLACK via-RED to-BLACK shadow-lg pb-8 pt-4'>
+      <div className='w-[100vw] h-auto bg-gradient-to-r from-BLACK via-RED to-BLACK shadow-lg pb-8 pt-4 border-t-[1px] border-RICH_TAWNY'>
         {children}
       </div>
     );
   };
 
   return (
+   <div className='shadow-[0_-10px_40px_0px_rgba(90,60,5,0.7)]'>
     <SiteFooterBG>
       <div className='p-8 flex flex-col justify-center items-center text-TAWNY opacity-80'>
         <div className='flex flex-row justify-center items-center text-center'>
@@ -44,6 +45,7 @@ const SiteFooter = () => {
         </p>
       </div>
     </SiteFooterBG>
+    </div>
   );
 };
 
