@@ -1,11 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+##### This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 # Papa G's Organic Tofu
 ### product website
 
 #### BUILD
 This project was initiated with [Next.js](https://nextjs.org/), built with [ReactJS](https://react.dev/) and styled using [Tailwind](https://tailwindcss.com/) CSS. Animaitions of components utilized [Framer's Motion library](https://www.framer.com/motion/animation/).
-Icons provided by the [npm](https://www.npmjs.com/) package [React Icons](https://react-icons.github.io/react-icons/).
+Some icons were provided by the [npm](https://www.npmjs.com/) package [React Icons](https://react-icons.github.io/react-icons/). Other icons used are the original art of the designer/dev.
 
 #### API
 The contact fom was linked to the owner and employees' emails using an API provided by [Nodemailer](https://nodemailer.com/) in conjunction with [Axios](https://axios-http.com/).
