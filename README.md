@@ -9,8 +9,8 @@ The website features information for consumers and proprieters alike. Routes are
 This project was initiated with [Next.js](https://nextjs.org/), built with [ReactJS](https://react.dev/) and styled using [Tailwind](https://tailwindcss.com/) CSS. Animaitions of components utilized [Framer's Motion library](https://www.framer.com/motion/animation/).
 Some icons were provided by the [npm](https://www.npmjs.com/) package [React Icons](https://react-icons.github.io/react-icons/). Other icons used are the original art of the designer/dev.
 
-#### API
-The contact form was linked to the owner and employees' emails using an API provided by [Nodemailer](https://nodemailer.com/) in conjunction with [Axios](https://axios-http.com/).
+#### REST and SMTP
+The contact form was linked to the owner and employees' emails using a self-hosted gateway that allows making REST requests against IMAP and SMTP servers, provided by the open-source [Nodemailer](https://nodemailer.com/) module.
 
 #### DESIGN
 All custom graphic design and product branding by Max Skewes. Vectorizing of images done with [Inkscape](https://inkscape.org/). [Gimp](https://www.gimp.org/) was used for additional design and art modification.
